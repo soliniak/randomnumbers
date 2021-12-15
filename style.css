@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.container .get_numbers {
+  padding: 5px 10px;
+}
+.container .wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.container .even__numbers, .container .odd__numbers {
+  text-align: center;
+  padding: 0 2rem;
+}
+.container .even__numbers .title, .container .odd__numbers .title {
+  border-bottom: 1px solid grey;
+  margin-bottom: 0.5rem;
+}
+.container .even__numbers .number, .container .odd__numbers .number {
+  padding: 5px;
+}
+.title {
+  font-size: 16px;
+}
